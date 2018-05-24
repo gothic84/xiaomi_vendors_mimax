@@ -750,12 +750,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/lib/libprotobuf-cpp-oreo.so:system/vendor/lib/libprotobuf-cpp-oreo.so \
     vendor/xiaomi/helium/proprietary/lib64/libprotobuf-cpp-oreo.so:system/vendor/lib64/libprotobuf-cpp-oreo.so \
     vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
-    vendor/xiaomi/helium/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile1.conf:system/vendor/etc/perf/perf-profile1.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile2.conf:system/vendor/etc/perf/perf-profile2.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile3.conf:system/vendor/etc/perf/perf-profile3.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile4.conf:system/vendor/etc/perf/perf-profile4.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile5.conf:system/vendor/etc/perf/perf-profile5.conf \
+    vendor/xiaomi/helium/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
     vendor/xiaomi/helium/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt
 
 # Perf
