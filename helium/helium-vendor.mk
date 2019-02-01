@@ -5,7 +5,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+# http:/www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -51,24 +51,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml:system/etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/helium/proprietary/etc/sdm_ys_32p_120_21_5_perturb50.bin:system/etc/sdm_ys_32p_120_21_5_perturb50.bin \
     vendor/xiaomi/helium/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
-    vendor/xiaomi/helium/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware//a530_pfp.fw \
-    vendor/xiaomi/helium/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware//a530_pm4.fw \
-    vendor/xiaomi/helium/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware//DE.o.msm8952 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware//DE.o.msm8976 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware//venus-v1.b00 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware//venus-v1.b01 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware//venus-v1.b02 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware//venus-v1.b03 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware//venus-v1.b04 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware//venus-v1.mbn \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware//venus-v1.mdt \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b00:system/etc/firmware//venus.b00 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b01:system/etc/firmware//venus.b01 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b02:system/etc/firmware//venus.b02 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b03:system/etc/firmware//venus.b03 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b04:system/etc/firmware//venus.b04 \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.mbn:system/etc/firmware//venus.mbn \
-    vendor/xiaomi/helium/proprietary/etc/firmware/venus.mdt:system/etc/firmware//venus.mdt \
+    vendor/xiaomi/helium/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
+    vendor/xiaomi/helium/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/xiaomi/helium/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/xiaomi/helium/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -79,9 +79,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/helium/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/helium/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/helium/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/xiaomi/helium/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
+    vendor/xiaomi/helium/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/helium/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/helium/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/xiaomi/helium/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
+    vendor/xiaomi/helium/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/helium/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/helium/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
